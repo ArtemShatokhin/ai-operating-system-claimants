@@ -46,3 +46,8 @@ docs/            three short notes: what counts, the open-source question, the d
 ## Contributing
 
 If a vendor changed its page, open an issue with the URL and the new sentence, or send a pull request that updates `claimants.yaml` and the table together. Run `check.py` before you push: a quote that does not appear on the source page is the one thing this repository refuses.
+
+## The pages these claims feed
+
+The record here is the evidence behind one comparison: [four open source claimants, and how to tell them apart](https://opensourceaioperatingsystem.com/open-source-ai-operating-system-compared) is the prose version, and [what an AI operating system is when a company deploys it](https://opensourceaioperatingsystem.com/ai-operating-system-for-companies) is where the deployment question ends up.
+
