@@ -1,0 +1,33 @@
+# What each "AI operating system" claimant says about itself.
+# Every entry quotes the vendor's own page. Re-check with: python3 check.py
+# last_checked: 2026-10-20
+claimants:
+  - name: Cloudflare OS
+    page: https://github.com/cloudflare/cloudflare-os
+    launch_post: https://blog.cloudflare.com/cloudflare-os
+    calls_itself: "an operating system for AI productivity"
+    open_source_claim: true
+    quote: "We are making Cloudflare OS open source so that others can copy it and customize it for their own company."
+    production_path: "deploy to your Cloudflare account"
+    status: "version 2, early access, August 2026 rewrite"
+  - name: Red Hat AI OS
+    page: https://www.redhat.com/en/blog/developing-standard-ai-os
+    calls_itself: "a standard AI operating system (AI OS)"
+    open_source_claim: true
+    quote: "Built on open source technology"
+    production_path: "a standardized AI layer on existing open-source infrastructure"
+    status: "a vendor position in a blog post, not a separate product download"
+  - name: VAST AI OS
+    page: https://www.vastdata.com/platform/ai-os
+    calls_itself: "The VAST AI Operating System"
+    open_source_claim: false
+    quote: "The VAST AI OS pulls all of it into a single unified infrastructure layer."
+    production_path: "a data and inference platform sold by the vendor"
+    status: "product page"
+  - name: Xyne
+    page: https://2026.allthingsopen.org/ai-operating-system-for-organizations-built-the-unix-way
+    calls_itself: "an open-source operating system for organizations"
+    open_source_claim: true
+    quote: "an open-source operating system for organizations"
+    production_path: "on infrastructure the organization controls"
+    status: "All Things Open 2026 community post"
