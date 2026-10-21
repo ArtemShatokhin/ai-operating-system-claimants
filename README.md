@@ -49,5 +49,5 @@ If a vendor changed its page, open an issue with the URL and the new sentence, o
 
 ## The pages these claims feed
 
-The record here is the evidence behind one comparison: [four open source claimants, and how to tell them apart](https://opensourceaioperatingsystem.com/open-source-ai-operating-system-compared) is the prose version, and [what an AI operating system is when a company deploys it](https://opensourceaioperatingsystem.com/ai-operating-system-for-companies) is where the deployment question ends up.
+The record here is the evidence behind one comparison: [four open source claimants, and how to tell them apart](https://opensourceaioperatingsystem.com/open-source-ai-operating-system-compared) is the prose version, and [what an AI operating system is when a company deploys it](https://opensourceaioperatingsystem.com/ai-operating-system-for-companies) is where the deployment question ends up. Cloudflare OS is the newest claimant in the set, and [the Cloudflare OS alternative page](https://opensourceaioperatingsystem.com/cloudflare-os-alternative) is the version of that comparison for a team already running it.
 
