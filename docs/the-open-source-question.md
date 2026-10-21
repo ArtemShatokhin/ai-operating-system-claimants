@@ -1,6 +1,6 @@
 # The open-source question
 
-Three of the four claimants say they are open source and one does not, which makes "open source AI operating system" a search that can return four products with three different answers about what open source buys you.
+Five of the six claimants say they are open source and one does not, which makes "open source AI operating system" a search that can return six products with five different answers about what open source buys you.
 
 Read the sentence each one writes, not the label:
 
@@ -8,6 +8,8 @@ Read the sentence each one writes, not the label:
 - Red Hat's post says the layer is built on open source technology; it is a position about infrastructure standards rather than a repository you clone and run as your system.
 - Xyne's post says it is an open-source operating system for organizations, running on infrastructure the organisation controls.
 - VAST's page makes no open-source claim for the platform itself.
+- OpenFang's README says it is open source and its `Cargo.toml` sets `Apache-2.0 OR MIT`, with both licence files at the repo root, while its README badge and License section name MIT alone and GitHub's metadata reports Apache-2.0. Both are permissive; the disagreement is the thing to check before you ship a build.
+- Paperclip is MIT, and its claim rests on the orchestration layer: the agents it runs can be any vendor's, so an open dashboard over closed agents is a different bargain from an open runtime.
 
 For [Kortix](https://kortix.com) the sentence is short: open source, read it, fork it, audit it, and it runs on Kortix Cloud, in your VPC, or on your own on-prem network.
 

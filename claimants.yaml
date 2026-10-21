@@ -1,6 +1,6 @@
 # What each "AI operating system" claimant says about itself.
 # Every entry quotes the vendor's own page. Re-check with: python3 check.py
-# last_checked: 2026-10-20
+# last_checked: 2026-10-21
 claimants:
   - name: Cloudflare OS
     page: https://github.com/cloudflare/cloudflare-os
@@ -31,3 +31,17 @@ claimants:
     quote: "an open-source operating system for organizations"
     production_path: "on infrastructure the organization controls"
     status: "All Things Open 2026 community post"
+  - name: OpenFang
+    page: https://raw.githubusercontent.com/RightNow-AI/openfang/main/README.md
+    calls_itself: "The Agent Operating System"
+    open_source_claim: true
+    quote: "Open-source Agent OS built in Rust."
+    production_path: "one binary, installed on the operator's machine"
+    status: "v0.6.9, published 12 May 2026; the project still calls itself pre-1.0"
+  - name: Paperclip
+    page: https://raw.githubusercontent.com/paperclipai/paperclip/master/README.md
+    calls_itself: "the app people use to manage AI agents for work"
+    open_source_claim: true
+    quote: "Paperclip is the app people use to manage AI agents for work."
+    production_path: "a Node.js server and React UI you run; a cloud edition sits on a waitlist"
+    status: "MIT, repository active in October 2026"

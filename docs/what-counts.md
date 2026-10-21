@@ -1,6 +1,6 @@
 # What counts as an "AI operating system"
 
-The term is applied to at least four different things, and the difference is not marketing noise, it is a real difference in what you install and who can act.
+The term is applied to at least six different things, and the difference is not marketing noise, it is a real difference in what you install and who can act.
 
 **An OS for a person's apps.** Cloudflare OS creates a private instance of each app for each person and puts a security layer, Gatekeepers, between that instance and the outside world. The thing being managed is an app.
 
@@ -10,7 +10,11 @@ The term is applied to at least four different things, and the difference is not
 
 **An OS for an organisation.** Xyne's post describes a context store the organisation owns, where approval and ownership stay with a person. The thing being managed is institutional knowledge.
 
-An AI Operating System in the sense a company deploys, owns and audits as one system has a fifth unit: a session. Agents, skills, memory and connectors live in one repository; each session runs on its own cloud computer; work lands through a change request. That is the shape [Kortix](https://kortix.com) builds, and it is the shape to compare against whichever of the four above you were looking at.
+**An OS for a machine's schedule.** OpenFang ships one Rust binary that runs Hands — scheduled agents — with a SQLite memory file and a hash-chained log on the same disk. The thing being managed is a recurring run.
+
+**An OS for a company of agents.** Paperclip puts an org chart, budgets and approval gates over other vendors' agents, and calls that infrastructure pillar its Agentic OS. The thing being managed is a task and who in the org owns it.
+
+An AI Operating System in the sense a company deploys, owns and audits as one system has a seventh unit: a session. Agents, skills, memory and connectors live in one repository; each session runs on its own cloud computer; work lands through a change request. That is the shape [Kortix](https://kortix.com) builds, and it is the shape to compare against whichever of the six above you were looking at.
 
 ## A test you can run in five minutes
 
