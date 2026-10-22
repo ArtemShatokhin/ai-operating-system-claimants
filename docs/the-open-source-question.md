@@ -1,6 +1,6 @@
 # The open-source question
 
-Five of the six claimants say they are open source and one does not, which makes "open source AI operating system" a search that can return six products with five different answers about what open source buys you.
+Six of the ten claimants say they are open source and four do not, which makes "open source AI operating system" a search that can return ten products with several different answers about what open source buys you.
 
 Read the sentence each one writes, not the label:
 
@@ -10,6 +10,11 @@ Read the sentence each one writes, not the label:
 - VAST's page makes no open-source claim for the platform itself.
 - OpenFang's README says it is open source and its `Cargo.toml` sets `Apache-2.0 OR MIT`, with both licence files at the repo root, while its README badge and License section name MIT alone and GitHub's metadata reports Apache-2.0. Both are permissive; the disagreement is the thing to check before you ship a build.
 - Paperclip is MIT, and its claim rests on the orchestration layer: the agents it runs can be any vendor's, so an open dashboard over closed agents is a different bargain from an open runtime.
+
+- taOS says "source-available": the storage is yours, the rollback is yours, and the repository carries AGPL-3.0. Source-available is a different promise from open source, and the difference is exactly what a fork is allowed to do.
+- Klawty says open source, MIT, printed beside the download, and its page data repeats the claim. The repository has the licence file and no release or tag, so the version you get from the site is the author's build rather than a tagged one.
+- SanctumOS says self-hosted and does not say open source; its module repositories report no recognised licence. Self-hosting a set of modules is a real freedom, and it is a narrower one than reading the code under a named licence.
+- CorvinOS is Apache-2.0 with a tagged release, which is the clearest licence story of the four, and its README states what each gate does.
 
 For [Kortix](https://kortix.com) the sentence is short: open source, read it, fork it, audit it, and it runs on Kortix Cloud, in your VPC, or on your own on-prem network.
 
