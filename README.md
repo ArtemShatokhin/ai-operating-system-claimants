@@ -1,6 +1,6 @@
 # AI operating system claimants
 
-This open-source record of the "AI operating system" field keeps what each claimant says about itself, in its own words, with the source URL: six products now put those words on their own pages or repositories, and no two of them mean the same thing. This repository records what each one says about itself, in its own words, with the source URL, and ships a script that re-checks every quote so the record cannot quietly go stale.
+This open-source record of the "AI operating system" field keeps what each claimant says about itself, in its own words, with the source URL. Ten products now put those words on their own pages or repositories, and no two of them mean the same thing. A script re-checks every quote, so the record cannot quietly go stale.
 
 ```
 python3 check.py
@@ -20,9 +20,24 @@ It fetches each vendor page, looks for the exact quote this repo stored, and exi
 
 Every cell traces to the vendor's own page or repository README, listed in `claimants.yaml` and checked by `check.py`. Where a vendor's page does not state something, the cell says so rather than filling the gap from a summary.
 
+## Four more, added October 2026
+
+The first six are companies selling a platform. These four are the other shape the phrase attracts: small, self-hosted systems whose authors ship a repository and an install script. Three of them claim the words "agent operating system" or "agentic operating system" verbatim, which is why they are in this record.
+
+| | taOS | Klawty | SanctumOS | CorvinOS |
+|---|---|---|---|---|
+| Calls itself | "the self-hosted AI agent operating system" | "The AI Agent Operating System" | "The Modular, Self-Hosted Agentic Operating System" | "The operating system for AI work" |
+| Says it is open source | its page says source-available; its repository is AGPL-3.0 | yes: "Open-source AI agent operating system with enterprise security", MIT, printed beside the download | no open-source claim on its own page; its two module repositories report no recognised licence | yes, Apache-2.0 |
+| Unit of work | a personal cloud on hardware you own: one memory graph (taOSmd), agents, channels and the bundled apps in its store | an always-on agent taking tasks from a channel: its own numbers read 1,000+ tasks, 20+ channels, 52 skills, a hardened fork of OpenClaw | a module with a brain-region name (Thalamus, Broca, Cochlea) wired to a tool server, SMCP | a turn routed to the cheapest model that can answer it, with fail-closed gates on the way out |
+| Documented production path | install on your own board or machine from its installer scripts; cloud models are opt-in, and it announces a paid convenience layer for access from outside your network | `curl -fsSL https://klawty.ai/install.sh \| bash`, Docker ready, built on OpenClaw | deploy the modules on your own infrastructure from their repositories, following the docs | `curl -fsSL https://corvin-labs.com/install.sh \| sh` clones the repository and runs its installer, the console on 127.0.0.1:8765 |
+| Status | v1.0.0-beta.56, 15 October 2026, still beta, AGPL-3.0 | site advertises v1.4.0; the public repository has no release or tag, last push 19 June 2026 | version 1.2 on its own structured data, latest post 13 October 2026 | tier1-complete, 18 September 2026, repository active |
+| The gap to check | source-available is not the same claim as open source, and the release is a beta | the licence is permissive, but a version number on a website is not a release you can pin | "self-hosted" is stated, open source is not | the routing and the gates are documented; how much runs locally depends on the model providers you point it at |
+
+The row to read twice is the open-source one. A page can say "self-hosted" and mean only that the installer is yours to run, and a repository can carry a permissive licence while the version a visitor downloads is the author's convenience build. That is why each entry records the licence as the repository reports it, not as the marketing page implies it.
+
 ## Why the record is worth keeping
 
-The phrase is doing six jobs at once. Read the six pages and the disagreement is not about features, it is about what the operating system is *for*:
+The phrase is doing a different job for every claimant. Read the pages and the disagreement is not about features, it is about what the operating system is *for*:
 
 - Cloudflare OS treats a person's private app instance as the unit, and its security model, Gatekeepers, exists to make it safe for someone non-technical to build one.
 - Red Hat's post argues for an inference layer, a standard runtime for serving models across hardware, and says plainly it is not an operating system built from scratch.
@@ -31,7 +46,7 @@ The phrase is doing six jobs at once. Read the six pages and the disagreement is
 - OpenFang treats the unit as a scheduled run: one Rust binary on one machine, with a SQLite memory file and a hash-chained log beside it. Its README calls it pre-1.0 and still says to pin a commit.
 - Paperclip treats the unit as a task inside a company: an org chart of agents, budgets per agent, and an "Agentic OS" pillar covering runtime, SSO and RBAC. It orchestrates other vendors' agents rather than supplying the runtime itself.
 
-None of those is the same product decision, so "which AI operating system" is not answerable until you say which of the six jobs you have.
+None of those is the same product decision, so "which AI operating system" is not answerable until you say which job you have: an app, a workload, a dataset, a context store, a schedule, a company of agents, a personal cloud, a routed turn, or a session.
 
 ## The fifth entry this table does not have
 
