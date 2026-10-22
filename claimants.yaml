@@ -1,6 +1,6 @@
 # What each "AI operating system" claimant says about itself.
 # Every entry quotes the vendor's own page. Re-check with: python3 check.py
-# last_checked: 2026-10-21
+# last_checked: 2026-10-22
 claimants:
   - name: Cloudflare OS
     page: https://github.com/cloudflare/cloudflare-os
@@ -45,3 +45,34 @@ claimants:
     quote: "Paperclip is the app people use to manage AI agents for work."
     production_path: "a Node.js server and React UI you run; a cloud edition sits on a waitlist"
     status: "MIT, repository active in October 2026"
+  - name: taOS
+    page: https://taos.my
+    repo: https://github.com/jaylfc/taOS
+    calls_itself: "the self-hosted AI agent operating system"
+    open_source_claim: false
+    quote: "Source-available, append-only storage"
+    production_path: "install on hardware you own; cloud models are opt-in"
+    status: "v1.0.0-beta.56, 15 October 2026, still beta; repository licence AGPL-3.0"
+  - name: Klawty
+    page: https://klawty.ai
+    repo: https://github.com/dcode-tec/Klawty
+    calls_itself: "The AI Agent Operating System"
+    open_source_claim: true
+    quote: "Open-source AI agent operating system with enterprise security."
+    production_path: "install script on your own machine, Docker available; a hardened fork of OpenClaw"
+    status: "site advertises v1.4.0; the public repository has no release or tag, last push 19 June 2026"
+  - name: SanctumOS
+    page: https://sanctumos.org
+    calls_itself: "The Modular, Self-Hosted Agentic Operating System"
+    open_source_claim: false
+    quote: "self-hosted agentic OS"
+    production_path: "deploy the modules on your own infrastructure, following the module docs"
+    status: "version 1.2 in its own structured data, latest post 13 October 2026; module repositories report no recognised licence"
+  - name: CorvinOS
+    page: https://raw.githubusercontent.com/CorvinLabs/CorvinOS/main/README.md
+    repo: https://github.com/CorvinLabs/CorvinOS
+    calls_itself: "The operating system for AI work"
+    open_source_claim: true
+    quote: "The operating system for AI work."
+    production_path: "installer script clones the repository and runs it locally, console on 127.0.0.1:8765"
+    status: "v2.0.0, release tag tier1-complete 18 September 2026, repository active; Apache-2.0"
